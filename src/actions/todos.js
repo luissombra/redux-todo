@@ -8,10 +8,10 @@ const addTodo = (text) => {
     }
 }
 
-const toggleTodo = (index) => {
+const toggleTodo = (id) => {
     return {
         type: TOGGLE_TODO,
-        index
+        id
     }
 }
 
